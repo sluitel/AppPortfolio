@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:layout_marginBottom="30dp"
+    android:layout_marginTop="30dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <TextView
+            android:text="My Nanodegree Apps"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_nanodegree_apps"
+            android:textColor="@android:color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat"
+            android:textSize="30sp"
+            android:fontFamily="casual"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content">
+
+        <Button
+            android:text="POPULAR MOVIES"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/popular_movies_button"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/background_light"
+            android:onClick="displayAToast"
+            android:textSize="16sp"
+            android:fontFamily="casual" />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <Button
+            android:text="STOCK HAWK"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/stock_hawk_button"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/background_light"
+            android:onClick="displayAToast"
+            android:textSize="16sp"
+            android:fontFamily="casual" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <Button
+            android:text="BUILD IT BIGGER"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:id="@+id/build_it_bigger_button"
+            android:layout_width="250dp"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/background_light"
+            android:onClick="displayAToast"
+            android:textSize="16sp"
+            android:fontFamily="casual" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <Button
+            android:text="MAKE YOUR APP MATERIAL"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/make_your_app_material_button"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/background_light"
+            android:onClick="displayAToast"
+            android:textSize="16sp"
+            android:fontFamily="casual" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <Button
+            android:text="GO UBIQUITOUS"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/go_ubiquitous_button"
+            android:background="@android:color/holo_orange_dark"
+            android:textColor="@android:color/background_light"
+            android:onClick="displayAToast"
+            android:textSize="16sp"
+            android:fontFamily="casual" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_gravity="center">
+
+        <Button
+            android:text="CAPSTONE: MY OWN APP"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/custom_app_button"
+            android:background="@android:color/holo_blue_light"
+            android:onClick="displayAToast"
+            android:textColor="@android:color/background_light"
+            android:textSize="16sp"
+            android:fontFamily="casual" />
+</LinearLayout>
+
+
+</LinearLayout>
